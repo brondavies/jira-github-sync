@@ -18,7 +18,7 @@ Currently [3.1](https://dotnet.microsoft.com/download/dotnet/3.1) is the target 
 
 - Create an API token at https://id.atlassian.com/manage-profile/security/api-tokens
 - Determine the server name of your hosted Jira instance; usually this is something like myaccount.atlassian.net
-- Get the project key used in your Jira issues like `ABC` in issue# ABC-1234. This is the key listed at <myaccount>.atlassian.net/jira/projects
+- Get the project key used in your Jira issues like `ABC` in issue# ABC-1234. This is the key listed at &lt;myaccount&gt;.atlassian.net/jira/projects
 
 ### Configuration
 
