@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "jira-github-sync": {
+      "commandName": "Project"
+    }
+  }
+}

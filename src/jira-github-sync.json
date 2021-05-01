@@ -1,0 +1,17 @@
+{
+  /* REQUIRED settings */
+  "githubAccount": "", // Used to identify the api usage - see githubToken
+  "githubToken": "", // An access token for the account you're using to read and update PRs on Github create at https://github.com/settings/tokens
+  "githubRepoOwner": "", // the first part of the URL like github.com/[githubRepoOwner]/reponame
+  "githubRepo": "", // the second part of the URL like github.com/myaccount/[githubRepo]
+  "baseBranch": "main", // the branch used for merging PRs
+  "jiraServer": "", // the server name of your hosted Jira instance like myaccount.atlassian.net
+  "jiraUsername": "", // usually the email of your associated Jira account
+  "jiraPassword": "", // usually an API token created at https://id.atlassian.com/manage-profile/security/api-tokens
+  "jiraPrefix": "", // the project key used in your Jira issues like ABC in issue# ABC-1234. This is the key listed at <myaccount>.atlassian.net/jira/projects
+  /* OPTIONAL settings */
+  "jiraProductionReadyStatus": "Production Ready", // The Jira issue status that correlates to code that is ready to deploy
+  "pullRequestText": "Pull Request {number}", // The text to show on PR links added to Jira issues (accepts replacement tokens)
+  "additionalLink": "", // another link to add to the Jira issue (accepts replacement tokens).  For example, this could be a link to a test site, e.g. https://pr{number}.test.net
+  "additionalLinkText": "" // the text to display for the additionalLink that is added (accepts replacement tokens).
+}
