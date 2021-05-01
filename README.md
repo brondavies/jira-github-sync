@@ -1,5 +1,5 @@
 # jira-github-sync
-A .NET Core command-line utility to keep your Jira cards automatically linked with the related PRs on Github
+A .NET Core command-line utility to keep your Jira issues automatically linked with the related PRs on Github
 
 ## Setup
 
